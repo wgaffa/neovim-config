@@ -1,0 +1,6 @@
+exe 'source' stdpath('config').'/general/settings.vim'
+exe 'source' stdpath('config').'/general/haskell.vim'
+exe 'source' stdpath('config').'/keys/mappings.vim'
+exe 'source' stdpath('config').'/vim-plug/plugins.vim'
+exe 'source' stdpath('config').'/plug-config/coc.vim'
+exe 'source' stdpath('config').'/general/last.vim'
