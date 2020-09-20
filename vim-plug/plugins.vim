@@ -11,7 +11,7 @@ call plug#begin(stdpath('data') . '/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
-    Plug 'scrooloose/NERDTree'
+    Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
@@ -36,4 +36,6 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'rakr/vim-one'
     Plug 'sainnhe/sonokai'
     Plug 'morhetz/gruvbox'
+
+    Plug 'honza/vim-snippets'
 call plug#end()
