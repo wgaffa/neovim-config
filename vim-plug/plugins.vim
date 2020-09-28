@@ -38,4 +38,5 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'morhetz/gruvbox'
 
     Plug 'honza/vim-snippets'
+    Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
