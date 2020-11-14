@@ -9,7 +9,7 @@ endif
 call plug#begin(stdpath('data') . '/plugged')
 
     " Better Syntax Support
-    "Plug 'sheerun/vim-polyglot'
+    Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
     " Auto pairs for '(' '[' '{'
@@ -35,7 +35,9 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'rakr/vim-one'
 
     Plug 'honza/vim-snippets'
+    Plug 'SirVer/ultisnips'
     Plug 'bronson/vim-trailing-whitespace'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'kassio/neoterm'
 
