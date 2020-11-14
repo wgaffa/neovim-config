@@ -37,4 +37,9 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'honza/vim-snippets'
     Plug 'bronson/vim-trailing-whitespace'
     Plug 'junegunn/fzf.vim'
+    Plug 'kassio/neoterm'
+
+    " Experimental
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+    Plug 'tpope/vim-surround'
 call plug#end()
