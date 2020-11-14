@@ -9,11 +9,12 @@ endif
 call plug#begin(stdpath('data') . '/plugged')
 
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    "Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'tpope/vim-surround'
 
     " Coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -31,12 +32,9 @@ call plug#begin(stdpath('data') . '/plugged')
 
     Plug 'ryanoasis/vim-devicons'
 
-    "Plug 'dense-analysis/ale'
-
     Plug 'rakr/vim-one'
-    Plug 'sainnhe/sonokai'
-    Plug 'morhetz/gruvbox'
 
     Plug 'honza/vim-snippets'
     Plug 'bronson/vim-trailing-whitespace'
+    Plug 'junegunn/fzf.vim'
 call plug#end()
