@@ -34,6 +34,7 @@ call plug#begin(stdpath('data') . '/plugged')
 
     Plug 'rakr/vim-one'
 
+    Plug 'preservim/nerdcommenter'
     Plug 'honza/vim-snippets'
     Plug 'SirVer/ultisnips'
     Plug 'bronson/vim-trailing-whitespace'
